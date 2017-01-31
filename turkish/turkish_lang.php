@@ -548,13 +548,13 @@ $lang['settings_sales_currency_placement_after']                   = 'Miktardan 
 $lang['settings_sales_require_client_logged_in_to_view_invoice']   = 'Faturayı Görüntülemek için Giriş Yapma Zorunluluğu';
 $lang['settings_sales_next_invoice_number']                        = 'Sonraki Fatura Numarası';
 $lang['settings_sales_next_invoice_number_tooltip']                = 'Eğer baştan başlamasını istiyorsanız bu alanı 1 olarak ayarlayın';
-$lang['settings_sales_decrement_invoice_number_on_delete']         = 'Decrement invoice number on delete';
-$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last invoice is deleted? Ex. If is set this option to YES and before invoice delete the next invoice number is 15 the next invoice number will decrement to 14. If is set to NO the number will remain to 15.  If you have setup delete only on last invoice to NO you should set this option to NO too to keep the next invoice number not decremented.';
+$lang['settings_sales_decrement_invoice_number_on_delete']         = 'Fatura silimdiğinde fatura numarasınıda düşürmek';
+$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Son fatura silindiğinde fatura numarasını azaltmak istiyor musunuz? Ör. Bu seçenek EVET olarak ayarlanırsa ve fatura silinmeden bir sonraki fatura numarasının 15 olması durumunda bir sonraki fatura numarası 14 e azaltılacaktır. Eğer HAYIR olarak ayarlanırsa sayı 15 olarak kalacaktır. Yalnızca son faturada SÜRE olarak silme ayarını yapmışsanız Bir sonraki fatura numarasının azaltılmasını önlemek için bu seçeneği HAYIR olarak ayarlamanız gerekir.';
 $lang['settings_sales_invoice_number_format']                      = 'Fatura Numarası Formatı';
 $lang['settings_sales_invoice_number_format_year_based']           = 'Yıl Tabanlı';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Numara Tabanlı (000001)';
 
-$lang['settings_sales_company_info_note']    = 'Bu bilgi Fatura ya da Proforma Ödemelerinde görüntülenecektir. Firma Bilgileri olması gereklidir.';
+$lang['settings_sales_company_info_note']    = 'Bu Bilgi Fatura ya da Proforma Ödemelerinde görüntülenecektir. Firma Bilgileri olması gereklidir.';
 $lang['settings_sales_company_name']         = 'Firma Adı';
 $lang['settings_sales_address']              = 'Adres';
 $lang['settings_sales_city']                 = 'Şehir';
@@ -1239,7 +1239,7 @@ $lang['is_active_export']             = 'Evet';
 # Invoice
 $lang['invoice_add_edit_advanced_options']               = 'Gelişmiş Seçenekler';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'Bu Faturada Kullanılabilen Ödeme Yöntemleri';
-$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Recurring invoices from this invoice';
+$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Tekrarlanan Faturalar';
 $lang['invoice_add_edit_no_payment_modes_found']         = 'Ödeme türü bulunamadı.';
 $lang['invoice_html_total_pay']                          = 'Toplam: %s';
 
